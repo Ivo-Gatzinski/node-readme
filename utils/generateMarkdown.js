@@ -51,7 +51,7 @@ function renderLicenseSection(answers) {
   const theLink = renderLicenseLink(answers);
   if (theLink && theBadge) {
   return `## License
-  This app's license is ${theBadge}. Please visit ${theLink} for more information.`
+This app's license is ${theBadge}. Please visit ${theLink} for more information.`
   } else {
     return "";
   }
@@ -61,25 +61,25 @@ function renderLicenseSection(answers) {
 function generateMarkdown(answers) {
   return `# ${answers.title}
 ${renderLicenseBadge(answers)}
-  ## Description
-  ${answers.description}
-  ## Table of Contents
-  
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  ## Installation
-  ${answers.installation}
-  ## Usage
-  ${answers.usage}
-  ## Contributing
-  ${answers.contribute}
-  ## Tests
-  ${answers.tests}
-  ## Questions
-  Please email me at ${answers.email} if you have any questions!
-  ## License
+## Description
+${answers.description}
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+## Installation
+${answers.installation}
+## Usage
+${answers.usage}
+## Contributing
+${answers.contribute}
+## Tests
+${answers.tests}
+## Questions
+Please email me at ${answers.email} if you have any questions! 
+You can also contact me on GitHub: [${answers.github}](https://github.com/${answers.github}).
 ${renderLicenseSection(answers)}
 `;
 }
