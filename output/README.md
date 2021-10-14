@@ -1,7 +1,7 @@
-#  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Wonderful App
+[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)
 ## Description
- 
+This app brings wonder to your world.
 ## Table of Contents
 
 - [Installation](#installation)
@@ -9,15 +9,15 @@
 - [Credits](#credits)
 - [License](#license)
 ## Installation
- 
+Copy into folder.
 ## Usage
- 
+Run index.js
 ## Contributing
- 
+Fork the repo.
 ## Tests
- 
+Run jest test.js
 ## Questions
-Please email me at   if you have any questions! 
-You can also contact me on GitHub: [ ](https://github.com/ ).
+Please email me at wonder@app.com if you have any questions! 
+You can also contact me on GitHub: [wonder-app](https://github.com/wonder-app).
 ## License
-This app's license is [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT). Please visit https://opensource.org/licenses/MIT for more information.
+This app's license is [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/). Please visit https://opendatacommons.org/licenses/by for more information.
