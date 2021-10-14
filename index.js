@@ -40,7 +40,7 @@ const questions = [
         name: "license",
         type: "list",
         message: "Please choose a license",
-        choices: ["MIT", "GPL v3", "ODC By", "No License"],
+        choices: ["MIT", "GPL v3", "ODC BY", "No License"],
       },
       {
           name: "github",
@@ -56,7 +56,7 @@ const questions = [
 
 inquirer.prompt(questions).then((answers) => {
 
-    const readmeContents = generateMarkdown(answers)
+    const readmeContents = generateMarkdown(answers);
   
     fs.writeFile("README.md", readmeContents, (err) => {
       if (err) {
@@ -70,11 +70,4 @@ inquirer.prompt(questions).then((answers) => {
     });
   });
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
