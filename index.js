@@ -54,6 +54,22 @@ const questions = [
       }
 ];
 
+inquirer.prompt(questions).then((answers) => {
+
+    const readmeContents = generateMarkdown(answers)
+  
+    fs.writeFile("README.md", readmeContents, (err) => {
+      if (err) {
+        console.log(err);
+        console.log(
+          "Uh oh. Something went wrong. Could not create README.md. Scroll up for details."
+        );
+        return process.exit(1);
+      }
+      console.log("Success! Created README.md");
+    });
+  });
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
