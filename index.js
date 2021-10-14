@@ -37,7 +37,7 @@ const questions = [
         message: "How would one test the app?"
     },
     {
-        name: "badge",
+        name: "license",
         type: "list",
         message: "Please choose a license",
         choices: ["MIT", "GPL v3", "ODC By", "No License"],
